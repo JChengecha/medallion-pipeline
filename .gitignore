@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generated data (Delta Lake / parquet output)
+proj1_bronze/
+proj1_gold/
+proj1_silver/
+*.parquet
+*.parquet.crc
+*.crc
+_delta_log/
+
+# Windows junk (NTFS alternate data streams)
+*.Zone.Identifier
+
+# Secrets
+.env
+*.key
